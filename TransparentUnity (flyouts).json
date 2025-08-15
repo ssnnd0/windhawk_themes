@@ -3,101 +3,101 @@
   "controlStyles[0].styles[0]": "CornerRadius=6,6,0,0",
   "controlStyles[0].styles[1]": "BorderThickness=0,0,0,0",
   "controlStyles[0].styles[2]": "Background:=$CommonBgBrush",
-
+ 
   "controlStyles[1].target": "Windows.UI.Xaml.Controls.Grid#CalendarCenterGrid",
   "controlStyles[1].styles[0]": "CornerRadius=0,0,6,6",
-  "controlStyles[1].styles[1]": "Margin=0,0,0,0",
+  "controlStyles[1].styles[1]": "Margin=0,0,0,12",
   "controlStyles[1].styles[2]": "BorderThickness=0,0,0,0",
   "controlStyles[1].styles[3]": "Background:=$CommonBgBrush",
-
+ 
   "controlStyles[2].target": "Windows.UI.Xaml.Controls.ScrollViewer#CalendarControlScrollViewer",
   "controlStyles[2].styles[0]": "BorderThickness=0,0,0,0",
   "controlStyles[2].styles[1]": "CornerRadius=0,0,6,6",
-  "controlStyles[2].styles[2]": "Background=$CommonBgBrush",
-
+  "controlStyles[2].styles[2]": "Background=Transparent",
+ 
   "controlStyles[3].target": "Windows.UI.Xaml.Controls.Border#CalendarHeaderMinimizedOverlay",
   "controlStyles[3].styles[0]": "Visibility=Visible",
-  "controlStyles[3].styles[1]": "Background=$CommonBgBrush",
-
+  "controlStyles[3].styles[1]": "Background=Transparent",
+  
   "controlStyles[4].target": "ActionCenter.FocusSessionControl#FocusSessionControl > Grid#FocusGrid",
-  "controlStyles[4].styles[0]": "Background=$CommonBgBrush",
-
+  "controlStyles[4].styles[0]": "Background=Transparent",
+  
   "controlStyles[5].target": "MenuFlyoutPresenter > Border",
   "controlStyles[5].styles[0]": "Background:=$CommonBgBrush",
   "controlStyles[5].styles[1]": "BorderThickness=0,0,0,0",
   "controlStyles[5].styles[2]": "CornerRadius=6",
   "controlStyles[5].styles[3]": "Padding=2,4,2,4",
-
+  
   "controlStyles[6].target": "Windows.UI.Xaml.Controls.Grid#MediaTransportControlsRegion",
   "controlStyles[6].styles[0]": "CornerRadius=6,6,0,0",
   "controlStyles[6].styles[1]": "BorderThickness=0,0,0,0",
-  "controlStyles[6].styles[2]": "Margin=0,0,0,-4",
+  "controlStyles[6].styles[2]": "Margin=0,0,0,-6",
   "controlStyles[6].styles[3]": "Background:=$CommonBgBrush",
-
+  
   "controlStyles[7].target": "Windows.UI.Xaml.Controls.Grid#MediaTransportControlsRoot",
-  "controlStyles[7].styles[0]": "Background=$CommonBgBrush",
-
+  "controlStyles[7].styles[0]": "Background:=<SolidColorBrush Color=\"Transparent\"/>",
+  
   "controlStyles[8].target": "ContentPresenter#PageContent",
-  "controlStyles[8].styles[0]": "Background=$CommonBgBrush",
-
+  "controlStyles[8].styles[0]": "Background:=<SolidColorBrush Color=\"Transparent\"/>",
+  
   "controlStyles[9].target": "ContentPresenter#PageContent > Grid > Border",
-  "controlStyles[9].styles[0]": "Background=$CommonBgBrush",
-
+  "controlStyles[9].styles[0]": "Background:=<SolidColorBrush Color=\"Transparent\"/>",
+  
   "controlStyles[10].target": "QuickActions.ControlCenter.AccessibleWindow#PageWindow > ContentPresenter > Grid#FullScreenPageRoot",
-  "controlStyles[10].styles[0]": "Background=$CommonBgBrush",
+  "controlStyles[10].styles[0]": "Background:=$CommonBgBrush",
   "controlStyles[10].styles[1]": "CornerRadius=6",
-
+  
   "controlStyles[11].target": "QuickActions.ControlCenter.AccessibleWindow#PageWindow > ContentPresenter > Grid#FullScreenPageRoot > ContentPresenter#PageHeader",
-  "controlStyles[11].styles[0]": "Background=$CommonBgBrush",
-
+  "controlStyles[11].styles[0]": "Background:=<SolidColorBrush Color=\"Transparent\"/>",
+  
   "controlStyles[12].target": "ScrollViewer#ListContent",
-  "controlStyles[12].styles[0]": "Background=$CommonBgBrush",
-
+  "controlStyles[12].styles[0]": "Background:=<SolidColorBrush Color=\"Transparent\"/>",
+  
   "controlStyles[13].target": "ActionCenter.FlexibleToastView#FlexibleNormalToastView",
-  "controlStyles[13].styles[0]": "Background=$CommonBgBrush",
-
+  "controlStyles[13].styles[0]": "Background:=<SolidColorBrush Color=\"Transparent\"/>",
+ 
   "controlStyles[14].target": "Border#ToastBackgroundBorder2",
   "controlStyles[14].styles[0]": "Background:=$CommonBgBrush",
   "controlStyles[14].styles[1]": "BorderThickness=0,0,0,0",
   "controlStyles[14].styles[2]": "CornerRadius=6",
-
+  
   "controlStyles[15].target": "JumpViewUI.SystemItemListViewItem > Grid#LayoutRoot > Border#BackgroundBorder",
   "controlStyles[15].styles[0]": "FocusVisualPrimaryThickness=0,0,0,0",
   "controlStyles[15].styles[1]": "FocusVisualSecondaryThickness=0,0,0,0",
-
+  
   "controlStyles[16].target": "JumpViewUI.JumpListListViewItem > Grid#LayoutRoot > Border#BackgroundBorder",
   "controlStyles[16].styles[0]": "FocusVisualPrimaryThickness=0,0,0,0",
-
+  
   "controlStyles[17].target": "ActionCenter.FlexibleItemView",
   "controlStyles[17].styles[0]": "CornerRadius=6",
-
+  
   "controlStyles[18].target": "Windows.UI.Xaml.Controls.ContentPresenter",
   "controlStyles[18].styles[0]": "BackgroundTransition:=<BrushTransition Duration=\"0:0:0.1\"/>",
-
+  
   "controlStyles[19].target": "Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter#Root > Windows.UI.Xaml.Controls.Border",
   "controlStyles[19].styles[0]": "BackgroundTransition:=<BrushTransition Duration=\"0:0:0.1\"/>",
-
+  
   "controlStyles[20].target": "Windows.UI.Xaml.Controls.ComboBox > Windows.UI.Xaml.Controls.Grid > Windows.UI.Xaml.Controls.Border",
   "controlStyles[20].styles[0]": "BackgroundTransition:=<BrushTransition Duration=\"0:0:0.1\"/>",
-
+  
   "controlStyles[21].target": "Windows.UI.Xaml.Controls.CalendarViewDayItem > Windows.UI.Xaml.Controls.Border",
   "controlStyles[21].styles[0]": "BackgroundTransition:=<BrushTransition Duration=\"0:0:0.1\"/>",
-
+  
   "controlStyles[22].target": "Windows.UI.Xaml.Controls.Control > Windows.UI.Xaml.Controls.Border",
   "controlStyles[22].styles[0]": "BackgroundTransition:=<BrushTransition Duration=\"0:0:0.1\"/>",
-
+  
   "controlStyles[23].target": "Grid#ControlCenterRegion",
   "controlStyles[23].styles[0]": "Background:=$CommonBgBrush",
   "controlStyles[23].styles[1]": "BorderThickness=0,0,0,0",
   "controlStyles[23].styles[2]": "CornerRadius=6",
-
+  
   "controlStyles[24].target": "Windows.UI.Xaml.Controls.Border#QuickActionsBorder",
   "controlStyles[24].styles[0]": "Background:=$CommonBgBrush",
   "controlStyles[24].styles[1]": "BorderThickness=0,0,0,0",
   "controlStyles[24].styles[2]": "CornerRadius=6",
-
-  "theme": "Transparent Unified by Sandro Thornton",
+  
+  "theme": "Unified Transparent by Sandro Thornton",
   "resourceVariables[0].variableKey": "",
   "resourceVariables[0].value": "",
-  "styleConstants[0]": "CommonBgBrush=<WindhawkBlur BlurAmount=\"10\" TintColor=\"#66262626\"/>"
+  "styleConstants[0]": "CommonBgBrush=<WindhawkBlur BlurAmount=\"15\" TintColor=\"#20222222\"/>"
 }
